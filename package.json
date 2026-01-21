@@ -13,6 +13,7 @@
   "type": "commonjs",
   "dependencies": {
     "ai": "^6.0.44",
+    "dotenv": "^17.2.3",
     "zod": "^4.3.5"
   },
   "devDependencies": {

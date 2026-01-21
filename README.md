@@ -5,7 +5,7 @@ An AI-powered CLI tool that analyzes log files and stack traces to help debug pr
 ## Setup
 
 ```bash
-npm install
+pnpm install
 ```
 
 Create a `.env` file with your API key:
@@ -18,11 +18,11 @@ AI_GATEWAY_API_KEY=your_key_here
 
 ```bash
 # Analyze a log file
-npm start path/to/logfile.log
+pnpm start path/to/logfile.log
 
 # Or pipe input directly
-cat error.log | npm start
-echo "Error: something failed" | npm start
+cat error.log | pnpm start
+echo "Error: something failed" | pnpm start
 ```
 
 ## How It Works
